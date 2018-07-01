@@ -1,0 +1,219 @@
+/*****Base Styles*****/
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    color: #3b3b3b;
+}
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.actual-width {
+    width: 1200px;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+main {
+    margin-top: -21px;
+}
+
+
+
+/*****Header Section*****/
+
+header {
+    background: url('../img/australian-beach.png');
+    background-size: cover;
+    border-bottom: 5px solid #fffcfa;
+    border-top:3px solid #b29380;
+    height: 350px;
+    padding: 50px;
+}
+
+.header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    clear: both;
+}
+
+nav {
+    color: #3b3b3b;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav h1 {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.nav ul {
+    width: 1200px;
+}
+
+nav li {
+    
+    float: right;
+    font-weight: bold;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #3b3b3b;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header p {
+    clear: both;
+    color: #3b3b3b;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    width: 877px;
+}
+
+/*****Portfolio*****/
+
+#portfolio {
+    background-color: #ffe2d0;
+    border-bottom: 3px solid #fffcfa;
+    color: #3b3b3b;
+}
+
+.portfolio-wrapper {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 820px;
+
+}
+
+#portfolio h1 {
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#portfolio h2{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+#portfolio p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.inner-wrapper {
+    height: 300px;
+}
+
+.desc, .image {
+    padding: 5px;
+    width: 48%;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*****About*****/
+
+#about {
+    background-color: #d5feff;
+    color: #3b3b3b;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -19px;
+}
+
+.about-wrapper {
+    font-size: 24px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 400px;
+    width: 950px;
+}
+
+
+#about h1 {
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about image {
+    float: left;
+    padding: 10px;
+}
+
+.resize {
+        max-height: 300px;
+        width: auto;
+}
+
+#about p {
+    float: right;
+    padding: 10px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+    background-color: #ffe2d0;
+    border-bottom: #b29380 3px solid;
+    color: #3b3b3b;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -95px;
+}
+
+#contact h1 {
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.contact-wrapper {
+    font-size: 24px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 400px;
+    width: 820px;
+}
